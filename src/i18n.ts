@@ -3,6 +3,8 @@ import {getRequestConfig} from 'next-intl/server';
  
 // Can be imported from a shared config
 // Let's see with works
+// testing again.
+
 const locales = ['en', 'id'];
  
 export default getRequestConfig(async ({locale}) => {
